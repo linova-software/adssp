@@ -1,0 +1,15 @@
+{
+    "Logging": {
+        "LogLevel": {
+            "Default": "Information",
+            "Microsoft": "Warning",
+            "Microsoft.Hosting.Lifetime": "Information"
+        }
+    },
+    "AllowedHosts": "*",
+    "Portal": {
+        "DomainName": "EXAMPLE",
+        "QuerySamAccountName": "your query user sAMAccountName",
+        "QueryUserPassword": "your query user password"
+    }
+}

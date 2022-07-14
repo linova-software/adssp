@@ -1,0 +1,26 @@
+@page "/authtest"
+
+@namespace Linova.ActiveDirectory.SelfService.Pages
+
+@section Heading
+{
+    <h2>Check Negotiate Authentication for Web Apps</h2>
+}
+
+<div class="auth-view-content">
+    <div class="row">
+        <div><span class="oi oi-account-login"></span>Is Authenticated?</div>
+        <div>@(User.Identity?.IsAuthenticated == true)</div>
+    </div>
+    <div class="row">
+        <div><span class="oi oi-monitor"></span>Authentication Type:</div>
+        <div>@User.Identity?.AuthenticationType</div>
+    </div>
+    <div class="row">
+        <div><span class="oi oi-person"></span>Username:</div>
+        <div>@User.Identity?.Name</div>
+    </div>
+    <div class="row justify-content-center mt-5">
+        <a asp-page="@PageNames.Home" role="button" class="btn btn-outline-primary">Back to home page</a>
+    </div>
+</div>
