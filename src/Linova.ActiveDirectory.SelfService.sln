@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linova.ActiveDirectory.SelfService", "Linova.ActiveDirectory.SelfService.csproj", "{05FCDC46-82D1-4F35-9ADE-6246ECB7A4AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05FCDC46-82D1-4F35-9ADE-6246ECB7A4AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05FCDC46-82D1-4F35-9ADE-6246ECB7A4AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05FCDC46-82D1-4F35-9ADE-6246ECB7A4AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05FCDC46-82D1-4F35-9ADE-6246ECB7A4AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

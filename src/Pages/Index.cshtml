@@ -1,0 +1,36 @@
+@page "/"
+
+@namespace Linova.ActiveDirectory.SelfService.Pages
+
+@section Heading
+{
+    <h1 class="col-12">Active Directory Self-Service Portal</h1>
+}
+
+@section AdditionalHeader
+{
+    <p class="lead md-2 col-12">
+        This is the self-service portal for Active Directory Users.
+    </p>
+}
+
+<div class="row justify-content-center text-center">
+    <div class="m-auto col-md-6">
+        <a asp-controller="Autofill" asp-action="Index" role="button" class="btn btn-block btn-primary btn-icon">
+            <span class="oi oi-key"></span>
+            <span>Change your password</span>
+        </a>
+        <a asp-page="@PageNames.TestPassword" role="button" class="btn btn-block btn-primary btn-icon">
+            <span class="oi oi-check"></span>
+            <span>Test if your password is correct</span>
+        </a>
+    </div>
+</div>
+<div class="row justify-content-center text-center mt-4">
+    <div class="m-auto col-md-6">
+        <a asp-page="@PageNames.AuthTest" role="button" class="btn btn-block btn-primary btn-icon">
+            <span class="oi oi-lock-locked"></span>
+            <span>Check Negotiate Authentication</span>
+        </a>
+    </div>
+</div>
